@@ -3,9 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
-  "type": "module",
   "scripts": {
-    "test": "node database/migrations/test.js",
+    "vai": "node database/migrations/test.js",
     "start": "node src/server.js"
   },
   "keywords": [],

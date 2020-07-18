@@ -7,3 +7,5 @@ var knex = require('knex')({
       database : 'webinf_react'
     }
   });
+
+  module.exports = knex;

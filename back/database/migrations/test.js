@@ -1,6 +1,5 @@
-
-// TODO Test
 var connection = require("../connection");
+
 //SELECT
 connection.select("*").table("test").then(data => {
     console.log(data);
